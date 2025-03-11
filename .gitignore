@@ -24,3 +24,4 @@ dist-ssr
 
 #ignore all .envs
 .env*
+src/backend/.env

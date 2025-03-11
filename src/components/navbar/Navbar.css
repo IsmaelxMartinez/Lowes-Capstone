@@ -1,0 +1,45 @@
+:root {
+    --color-tan: #B3A589;
+    --color-olive: #8B9A72;
+    --color-sage: #B2BEA2;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-olive);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0; 
+    z-index: 1000; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+}
+
+
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+
+  .logo span {
+    color: var(--color-tan);
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+
+  .nav-links a:hover {
+    color: var(--color-tan);
+  }

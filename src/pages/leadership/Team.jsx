@@ -19,14 +19,14 @@ const leadershipData = [
   {
     name: "Efren Laris",
     title: "Integration Leadership",
-    bio: "Efren Laris, with a background in construction, gained firsthand insight into the environmental impact of building practices. This fueled his passion for sustainability, which he now applies to promote eco-friendly gardening and resource-conscious living at The Green Thumb.",
+    bio: "Efren Laris, with a background in construction, gained firsthand insight into the environmental impact of building practices. This fueled his passion for sustainability, which he now applies to promote eco-friendly gardening and resource-conscious living at Community Gardens.",
     linkedin: "https://www.linkedin.com/in/efren-laris-5605a7312/",
 
   },
   {
     name: "Catalina Perez",
     title: "Team Member",
-    bio: "Catalina Perez, originally from Colombia, brings a unique perspective to The Green Thumb. Passionate about sustainable agriculture, she’s dedicated to sharing her knowledge of growing fresh food and making gardening accessible to all.",
+    bio: "Catalina Perez, originally from Colombia, brings a unique perspective to Community Gardens. Passionate about sustainable agriculture, she’s dedicated to sharing her knowledge of growing fresh food and making gardening accessible to all.",
     linkedin: "https://www.linkedin.com/in/pperezhe/",
   
   },
@@ -38,10 +38,10 @@ const leadershipData = [
 
   },
   {
-    name: "Khalia Howard",
+    name: "Justin McNeil",
     title: "Project Manager",
     bio: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus ut quas necessitatibus quam dignissimos laboriosam modi, id numquam itaque ipsam illum sed, suscipit incidunt doloremque saepe cupiditate, excepturi commodi non.",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/mcneiljustin/",
 
   }
 ];
@@ -91,7 +91,7 @@ const App = () => {
         <section className="intro">
           <h2>Meet the People Behind Our Mission</h2>
           <p>
-            At The Green Thumb, we are passionate about promoting the importance
+            At Community Gardens, we are passionate about promoting the importance
             of growing your own food. Our leadership team is dedicated to
             empowering individuals with the knowledge and tools to grow fresh,
             healthy produce right at home, contributing to a more sustainable
@@ -118,7 +118,7 @@ const App = () => {
         <section className="join-section">
           <h2>Join Our Team</h2>
           <p>
-            At The Green Thumb, we’re always looking for passionate individuals to
+            At Community Gardens, we’re always looking for passionate individuals to
             help us grow. If you’re interested in supporting our mission to teach
             sustainable food practices, we’d love to hear from you!
           </p>

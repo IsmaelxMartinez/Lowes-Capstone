@@ -11,7 +11,7 @@ const Home = () => {
         <div className="hero-content">
           <h1>Grow Your Own, Save Our Planet</h1>
           <p>
-            Join The Green Thumb community to learn how growing your own fruits
+            Join Community Gardens to learn how growing your own fruits
             and vegetables can<br />
             combat climate change and build food security in uncertain times.
           </p>
@@ -86,7 +86,7 @@ const Home = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-              The Green Thumb is dedicated to empowering individuals and
+              Community Gardens is dedicated to empowering individuals and
               communities to take climate action through home gardening. In a
               world of unpredictable weather patterns and rising food costs, we
               believe that local food production is no longer just a hobby—it's

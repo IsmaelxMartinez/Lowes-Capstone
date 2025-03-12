@@ -13,7 +13,7 @@
     line-height: 1.6;
   }
 
-  .home {
+   .home {
     max-width: 100vw;
   }
   
@@ -33,13 +33,13 @@
     margin: 0 auto;
   }
   
-  .hero h1 {
+  .hero-content h1 {
     font-size: 2.5rem;
-    color: #333;
+    color: 333;
     margin-bottom: 1rem;
   }
   
-  .hero p {
+  .hero-content p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
   }
@@ -81,29 +81,29 @@
     margin: 0 auto;
   }
   
-  .card {
+  .home-card {
     background-color: #f9f7f2;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
   
-  .card-image img {
+  .homecard-image img {
     width: 100%;
-    height: auto;
+    height: 30vh;
     object-fit: cover; 
     object-position: top;
 }
 
-  .card-content {
+  .homecard-content {
     padding: 1.5rem;
   }
-  .card {
+  .homecard {
     background-color: #f9f7f2;
     border-radius: 8px;
   }
   
-a{
+  a{
     color: #8B9A72;
     text-decoration: none;
     margin-bottom: 10px;
@@ -162,4 +162,211 @@ a{
   .cta .btn:hover {
     background-color: #a09176;
   }
+  
+
+  /* Responsive Design */
+  /* @media (max-width: 768px) {
+    .hero, .mission, .features, .about, .cta {
+      padding: 3rem 1rem;
+    }
+
+    .hero h1 {
+      font-size: 2rem;
+    }
+    
+    .hero p {
+      font-size: 1rem;
+    }
+
+    .btn {
+      padding: 0.6rem 1.4rem;
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .hero h1 {
+      font-size: 1.8rem;
+    }
+    
+    .hero p {
+      font-size: 0.9rem;
+    }
+    
+    .btn {
+      padding: 0.5rem 1.2rem;
+    }
+  }  */
+
+  @media (max-width: 1024px) {
+    .hero, .mission {
+      padding: 5rem 0;
+    }
+    
+    .feature-cards {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+    
+    .about-content {
+      gap: 2.5rem;
+    }
+  }
+  
+  /* Medium Tablets */
+  @media (max-width: 900px) {
+    .hero-content, .about-content, .feature-cards {
+      padding: 0 25px;
+    }
+    
+    .about-content {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+    
+    .about-image {
+      grid-row: 1;
+      max-height: 400px;
+    }
+    
+    .about-text {
+      grid-row: 2;
+    }
+  }
+  
+  /* Small Tablets and Large Phones */
+  @media (max-width: 768px) {
+    .hero, .mission {
+      padding: 4rem 0;
+    }
+    
+    .features, .about, .cta {
+      padding: 4rem 0;
+    }
+    
+    .hero-content h1 {
+      margin-bottom: 1rem;
+    }
+    
+    .hero-content p {
+      margin-bottom: 2rem;
+    }
+    
+    .feature-cards {
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+    
+    .homecard-image img {
+      height: 200px;
+    }
+    
+    .section-title {
+      margin-bottom: 2.5rem;
+    }
+    
+    .section-title:after {
+      width: 50px;
+      height: 2px;
+    }
+    
+    .homecard-content {
+      padding: 1.5rem;
+    }
+    
+    .btn {
+      padding: 0.8rem 1.6rem;
+    }
+  }
+  
+  /* Mobile Phones */
+  @media (max-width: 600px) {
+    .hero, .mission {
+      padding: 3.5rem 0;
+    }
+    
+    .features, .about, .cta {
+      padding: 3.5rem 0;
+    }
+    
+    .feature-cards {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    
+    .homecard-image img {
+      height: 220px;
+    }
+    
+    .container, .hero-content, .feature-cards, 
+    .about-content, .cta-content {
+      padding: 0 20px;
+    }
+    
+    .section-title {
+      margin-bottom: 2rem;
+    }
+  }
+  
+  /* Small Mobile Phones */
+  @media (max-width: 480px) {
+    .hero, .mission {
+      padding: 3rem 0;
+    }
+    
+    .features, .about, .cta {
+      padding: 3rem 0;
+    }
+    
+    .hero-content h1 {
+      margin-bottom: 0.8rem;
+    }
+    
+    .hero-content p {
+      margin-bottom: 1.8rem;
+    }
+    
+    .btn {
+      padding: 0.7rem 1.4rem;
+      width: 80%;
+      max-width: 280px;
+    }
+    
+    .homecard-content {
+      padding: 1.2rem;
+    }
+    
+    .homecard-image img {
+      height: 180px;
+    }
+    
+    .about-image {
+      max-height: 300px;
+    }
+  }
+  
+  /* Super Small Mobile Phones */
+  @media (max-width: 350px) {
+    .hero-content h1 {
+      font-size: 1.8rem;
+    }
+    
+    .hero-content p {
+      font-size: 0.95rem;
+    }
+    
+    .btn {
+      padding: 0.6rem 1.2rem;
+      font-size: 0.9rem;
+    }
+    
+    .homecard-image img {
+      height: 160px;
+    }
+  }
+
+
   

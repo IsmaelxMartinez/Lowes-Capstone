@@ -122,7 +122,7 @@ const App = () => {
             help us grow. If you’re interested in supporting our mission to teach
             sustainable food practices, we’d love to hear from you!
           </p>
-          <button className="btn">Test Button</button>
+          <button className="btn">Join Today!</button>
         </section>
       </main>
     </div>

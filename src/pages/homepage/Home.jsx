@@ -25,11 +25,11 @@ const Home = () => {
       <section className="features">
         <h2 className="section-title">Why Grow Your Own?</h2>
         <div className="feature-cards">
-          <div className="card">
-            <div className="card-image">
+          <div className="home-card">
+            <div className="homecard-image">
               <img src="/homegardens.jpeg" alt="Climate Impact" />
             </div>
-            <div className="card-content">
+            <div className="homecard-content">
               <h3>Combat Climate Change</h3>
               <p>
                 Home gardens reduce food miles, carbon emissions, and packaging
@@ -44,11 +44,11 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="card">
-            <div className="card-image">
+          <div className="home-card">
+            <div className="homecard-image">
               <img src="/farmers.jpeg" alt="Food Security" />
             </div>
-            <div className="card-content">
+            <div className="homecard-content">
               <h3>Build Food Resilience</h3>
               <p>
                 With rising tariffs and supply chain disruptions, growing your
@@ -61,11 +61,11 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="card">
-            <div className="card-image">
+          <div className="home-card">
+            <div className="homecard-image">
               <img src="/community.jpeg" alt="Community" />
             </div>
-            <div className="card-content">
+            <div className="homecard-content">
               <h3>Strengthen Communities</h3>
               <p>
                 Garden-sharing, seed swaps, and knowledge exchange build

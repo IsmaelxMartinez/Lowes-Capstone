@@ -11,7 +11,7 @@ const leadershipData = [
   },
   {
     name: "Khalia Howard",
-    title: "Frontend Leadership",
+    title: "Full-Stack Leadership & Engineering",
     bio: "Khalia blends her passion for gardening with tech expertise. Inspired by her family’s emphasis on growing fresh food at home, she is committed to sustainability and empowering others to grow their own food through accessible tools and resources.",
     linkedin: "https://www.linkedin.com/in/khaliahoward/",
 
@@ -25,8 +25,8 @@ const leadershipData = [
   },
   {
     name: "Catalina Perez",
-    title: "Team Member",
-    bio: "Catalina Perez, originally from Colombia, brings a unique perspective to Community Gardens. Passionate about sustainable agriculture, she’s dedicated to sharing her knowledge of growing fresh food and making gardening accessible to all.",
+    title: "Frontend Development & UI Leadership",
+    bio: "With a background in frontend development, Catalina Perez is dedicated to building user-friendly platforms that promote sustainability and community engagement. Originally from Colombia, she brings a global perspective to designing digital solutions for eco-conscious living.",
     linkedin: "https://www.linkedin.com/in/pperezhe/",
   
   },

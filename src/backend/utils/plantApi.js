@@ -1,16 +1,19 @@
 import axios from "axios";
+import { configDotenv } from "dotenv";
+
+configDotenv();
 
 const api = axios.create({
   baseURL: "https://permapeople.org/api/search",
   headers: {
-    "x-permapeople-key-id": "KrXL4aUpNLoR",
-    "x-permapeople-key-secret": "230c4d46-149e-4e12-9bcc-accfa1b27c32",
+    "x-permapeople-key-id": process.env.API_KEY,
+    "x-permapeople-key-secret": process.env.API_SECRET,
   },
 });
 
 const searchPlants = async (query) => {
   try {
-    const response = await api.post("", {
+    const response = await api.post("/", null, {
       params: {
         q: query,
       },

@@ -11,12 +11,12 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get("/plants", async (req, res) => {
+app.get("/api/listPlants", async (req, res) => {
   try {
     const query = req.query.q;
     const plants = await searchPlants(query);
     res.json(plants);
-    console.log(plants);
+    // console.log(plants);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }

@@ -3,6 +3,7 @@ import './Team.css';
 
 const leadershipData = [
   {
+    imgSrc: "../../../../public/ismael.jpg",
     name: "Ismael Martinez",
     title: "Team Leadership",
     bio: "Ismael Martinez, originally from Buffalo, New York, brings a strong sense of community and dedication to sustainability. He is passionate about making gardening and sustainable living accessible to everyone, and works to inspire others to grow their own food for a healthier, more sustainable future.",
@@ -10,6 +11,7 @@ const leadershipData = [
   
   },
   {
+    imgSrc: "../../../../public/khalia.jpg",
     name: "Khalia Howard",
     title: "Full-Stack Leadership & Engineering",
     bio: "Khalia blends her passion for gardening with tech expertise. Inspired by her family’s emphasis on growing fresh food at home, she is committed to sustainability and empowering others to grow their own food through accessible tools and resources.",
@@ -17,6 +19,7 @@ const leadershipData = [
 
   },
   {
+    imgSrc: "../../../../public/efren.jpg",
     name: "Efren Laris",
     title: "Integration Leadership",
     bio: "Efren Laris, with a background in construction, gained firsthand insight into the environmental impact of building practices. This fueled his passion for sustainability, which he now applies to promote eco-friendly gardening and resource-conscious living at Community Gardens.",
@@ -24,6 +27,7 @@ const leadershipData = [
 
   },
   {
+    imgSrc: "../../../../public/catalina.jpg",
     name: "Catalina Perez",
     title: "Frontend Development & UI Leadership",
     bio: "With a background in frontend development, Catalina Perez is dedicated to building user-friendly platforms that promote sustainability and community engagement. Originally from Colombia, she brings a global perspective to designing digital solutions for eco-conscious living.",
@@ -31,6 +35,7 @@ const leadershipData = [
   
   },
   {
+    imgSrc: "../../../../public/darrell.jpg",
     name: "Darrell Cooper",
     title: "Cybersecurity Leadership",
     bio: "Darrell Cooper works with youth as a coach and is deeply committed to the future of our planet, driven by his desire to create a better world for the kids he coaches. He is passionate about sustainability and empowering the next generation to take care of the environment.",
@@ -38,6 +43,7 @@ const leadershipData = [
 
   },
   {
+    imgSrc: "../../../../public/justin.jpg",
     name: "Justin McNeil",
     title: "Project Manager",
     bio: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus ut quas necessitatibus quam dignissimos laboriosam modi, id numquam itaque ipsam illum sed, suscipit incidunt doloremque saepe cupiditate, excepturi commodi non.",

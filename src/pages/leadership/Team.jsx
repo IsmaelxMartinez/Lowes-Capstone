@@ -3,6 +3,7 @@ import './Team.css';
 
 const leadershipData = [
   {
+    id: 1,
     imgSrc: "../../../../public/ismael.jpg",
     name: "Ismael Martinez",
     title: "Team Leadership",
@@ -11,6 +12,7 @@ const leadershipData = [
   
   },
   {
+    id: 2,
     imgSrc: "../../../../public/khalia.jpg",
     name: "Khalia Howard",
     title: "Full-Stack Leadership & Engineering",
@@ -19,6 +21,7 @@ const leadershipData = [
 
   },
   {
+    id: 3,
     imgSrc: "../../../../public/efren.jpg",
     name: "Efren Laris",
     title: "Integration Leadership",
@@ -27,6 +30,7 @@ const leadershipData = [
 
   },
   {
+    id: 4,
     imgSrc: "../../../../public/catalina.jpg",
     name: "Catalina Perez",
     title: "Frontend Development & UI Leadership",
@@ -35,6 +39,7 @@ const leadershipData = [
   
   },
   {
+    id: 5,
     imgSrc: "../../../../public/darrell.jpg",
     name: "Darrell Cooper",
     title: "Cybersecurity Leadership",
@@ -43,6 +48,7 @@ const leadershipData = [
 
   },
   {
+    id: 6,
     imgSrc: "../../../../public/justin.jpg",
     name: "Justin McNeil",
     title: "Project Manager",
@@ -72,7 +78,7 @@ const valuesData = [
 const LeadershipCard = ({ leader }) => (
   <div className="leader-card">
     <div className="leader-image">
-      <img src={leader.imgSrc} alt={leader.name} />
+      <img src={leader.imgSrc} alt={leader.name} className={`leader-${leader.id}`} />
     </div>
     <div className="leader-info">
       <h3>{leader.name}</h3>

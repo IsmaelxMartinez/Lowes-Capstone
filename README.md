@@ -1,12 +1,38 @@
-# React + Vite
+<a id="top"></a>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌱 Community Gardens - Gardening Assistant
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Community Gardens is a full-stack web application designed to assist users in growing their own plants and vegetables. The platform provides an AI-powered chatbot for gardening guidance, a plant search feature, user authentication, and an admin panel for managing users and comments.
 
-## Expanding the ESLint configuration
+[View Demo](https://capstones-gardens.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Table of Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation-instructions)
+- [API Documentation](#api-documentation)
+- [Contributors](#contributors)
+- [Acknowledgements](#acknowledgements)
+
+## Features
+- **AI-Powered Gardening Chatbot**:
+  - Provides expert gardening advice based on user queries.
+  - Remembers user-provided locations to recommend soil types and plants.
+- **Plant Search & Filtering**:
+  - Users can search for plants and filter them based on type, light requirements, water needs, and soil type.
+- **AI Integration**:
+  - **Permapeople API** is used to fetch plant data.
+  - **ChatGPT API** is used to provide gardening advice.
+- **User Authentication**:
+  - Secure signup and login system with JWT authentication.
+- **Admin Dashboard**:
+  - Admin users can manage users and comments.
+- **Responsive UI**:
+  - The application is fully responsive and works seamlessly on mobile, tablet, and desktop devices.
+
+
+[Back to Top](#top)
+
+## Screenshot

@@ -55,8 +55,8 @@ Community Gardens is a full-stack web application designed to assist users in gr
 - 
 ### Meet the Team:
 
-| [<img src="https://avatars.githubusercontent.com/u/122962331?v=4" width="50">](https://github.com/IsmaelxMartinez) | [<img src="https://avatars.githubusercontent.com/u/173405626?v=4" width="50">](https://github.com/efr-en) | [<img src="https://avatars.githubusercontent.com/u/183950244?v=4" width="50">](https://github.com/kkhhaalliiaa) | [<img src="https://avatars.githubusercontent.com/u/184427314?v=4" width="50">](https://github.com/pcatalinahe) | [<img src="https://avatars.githubusercontent.com/u/140208650?v=4">](https://github.com/DJCooper1104)
-|---|---|---|---|---|---|
+| [<img src="https://avatars.githubusercontent.com/u/122962331?v=4" width="50">](https://github.com/IsmaelxMartinez) | [<img src="https://avatars.githubusercontent.com/u/173405626?v=4" width="50">](https://github.com/efr-en) | [<img src="https://avatars.githubusercontent.com/u/183950244?v=4" width="50">](https://github.com/kkhhaalliiaa) | [<img src="https://avatars.githubusercontent.com/u/184427314?v=4" width="50">](https://github.com/pcatalinahe) | [<img src="https://avatars.githubusercontent.com/u/140208650?v=4"  width="50">](https://github.com/DJCooper1104)
+|---|---|---|---|---|
 
 
 ### Acknowledgements

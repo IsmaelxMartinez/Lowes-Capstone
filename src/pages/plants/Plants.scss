@@ -1,0 +1,25 @@
+// Plants.scss
+@import url("https://fonts.googleapis.com/css2?family=Georgia&display=swap");
+
+:root {
+  --color-tan: #b3a589;
+  --color-olive: #8b9a72;
+  --color-sage: #b2bea2;
+  --color-white: #f9f7f2;
+  --color-black: #333;
+}
+
+.plants {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: var(--color-black);
+
+  h1 {
+    font-size: 2.5rem;
+    color: var(--color-olive);
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}

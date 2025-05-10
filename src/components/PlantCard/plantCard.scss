@@ -1,0 +1,70 @@
+// PlantCard.scss
+:root {
+  --color-tan: #b3a589;
+  --color-olive: #8b9a72;
+  --color-sage: #b2bea2;
+  --color-white: #f9f7f2;
+  --color-black: #333;
+}
+
+.plant-card {
+  background-color: var(--color-white);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    color: var(--color-olive);
+    padding: 1rem;
+    margin: 0;
+    background-color: var(--color-sage);
+  }
+
+  p {
+    padding: 0.5rem 1rem;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+
+    strong {
+      color: var(--color-olive);
+    }
+  }
+
+  .plant-images {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+  }
+
+  .plant-links {
+    padding: 1rem;
+    background-color: var(--color-sage);
+
+    p {
+      margin: 0.5rem 0;
+
+      a {
+        color: var(--color-olive);
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
